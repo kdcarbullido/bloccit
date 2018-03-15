@@ -26,6 +26,8 @@
    gem 'sqlite3'
  end
  
+ gem 'pry-rails', :group => :development
+ 
  
  
  
