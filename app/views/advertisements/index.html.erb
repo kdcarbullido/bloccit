@@ -1,0 +1,8 @@
+<h1>Advertisements#index</h1>
+<p>Find me in app/views/advertisements/index.html.erb</p>
+<h1>All Advertisements</h1>
+<% @advertisements.each do | ad | %>
+    <p><span>Ad Title: </span><%= ad.title %></p>
+    <p><span>Ad Copy: </span><%= ad.copy %></p>
+    <p><span>Ad Price: $</span><%= ad.price %></p>
+<% end %>
